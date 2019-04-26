@@ -1,3 +1,5 @@
+"""飞机大战雏形"""
+
 import pygame as pg
 from planeGame.plane_sprites import *
 

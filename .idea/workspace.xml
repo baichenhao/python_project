@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c98ff1ab-5171-4601-a936-6a7e8c8f8e5e" name="Default Changelist" comment="">
+    <list default="true" id="c98ff1ab-5171-4601-a936-6a7e8c8f8e5e" name="Default Changelist" comment="更新">
+      <change afterPath="$PROJECT_DIR$/planeGame/plane_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planeGame/game_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/planeGame/game_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planeGame/plane_sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/planeGame/plane_sprites.py" afterDir="false" />
@@ -15,19 +16,20 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/project$test.coverage" NAME="test Coverage Results" MODIFIED="1555656428198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$cords_main.coverage" NAME="cords_main Coverage Results" MODIFIED="1555650505001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cords" />
+    <SUITE FILE_PATH="coverage/project$plane_main.coverage" NAME="plane_main Coverage Results" MODIFIED="1556252379533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/planeGame" />
     <SUITE FILE_PATH="coverage/project$game_main.coverage" NAME="game_main Coverage Results" MODIFIED="1556181857107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/planeGame" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-41588281">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.42" value="2" />
+          <entry key="project.open.time.42" value="3" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.57" value="1" />
@@ -35,42 +37,46 @@
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Python" value="4466" />
+          <entry key="Python" value="8158" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/planeGame/game_main.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/planeGame/plane_sprites.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="225">
+              <caret line="110" column="53" lean-forward="true" selection-start-line="110" selection-start-column="53" selection-end-line="110" selection-end-column="53" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#205#531#0" />
+                <element signature="e#568#1014#0" />
+                <element signature="e#1046#1747#0" />
+                <element signature="e#2398#2715#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planeGame/plane_sprites.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/planeGame/plane_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="279">
+              <caret line="98" column="35" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -97,8 +103,9 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/cords/cards_main.py" />
         <option value="$PROJECT_DIR$/planeGame/GameSprite.py" />
-        <option value="$PROJECT_DIR$/planeGame/plane_sprites.py" />
         <option value="$PROJECT_DIR$/planeGame/game_main.py" />
+        <option value="$PROJECT_DIR$/planeGame/plane_sprites.py" />
+        <option value="$PROJECT_DIR$/planeGame/plane_main.py" />
       </list>
     </option>
   </component>
@@ -109,8 +116,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="221" />
-    <option name="y" value="1" />
+    <option name="x" value="210" />
+    <option name="y" value="2" />
     <option name="width" value="1085" />
     <option name="height" value="756" />
   </component>
@@ -120,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,7 +144,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.game_main">
+  <component name="RunManager" selected="Python.plane_main">
     <configuration name="cords_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,6 +219,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="plane_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/planeGame" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/planeGame/plane_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,9 +267,11 @@
       <item itemvalue="Python.test" />
       <item itemvalue="Python.cords_main" />
       <item itemvalue="Python.game_main" />
+      <item itemvalue="Python.plane_main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.plane_main" />
         <item itemvalue="Python.game_main" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.cords_main" />
@@ -265,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556180650614</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新">
+      <created>1556183168172</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556183168172</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -278,16 +316,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="1" width="1085" height="756" extended-state="0" />
+    <frame x="210" y="2" width="1085" height="756" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19804879" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20195122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25281805" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
@@ -332,23 +370,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planeGame/GameSprite.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planeGame/plane_sprites.py">
+    <entry file="file://$PROJECT_DIR$/planeGame/GameSprite.py" />
+    <entry file="file://$PROJECT_DIR$/planeGame/game_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planeGame/game_main.py">
+    <entry file="file://E:/Anaconda3/Lib/site-packages/pygame/sprite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        <state relative-caret-position="146">
+          <caret line="452" column="8" selection-start-line="452" selection-start-column="8" selection-end-line="452" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planeGame/plane_sprites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="110" column="53" lean-forward="true" selection-start-line="110" selection-start-column="53" selection-end-line="110" selection-end-column="53" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#205#531#0" />
+            <element signature="e#568#1014#0" />
+            <element signature="e#1046#1747#0" />
+            <element signature="e#2398#2715#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planeGame/plane_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="98" column="35" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
         </state>
       </provider>
     </entry>
